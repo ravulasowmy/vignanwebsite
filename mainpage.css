@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.outbox{
+    border:solid 1px;
+    height: 120px;
+    display: flex;
+}
+#box1,#box2{
+    border: solid 1px;
+    height: 120px;
+}
+#box1{
+    width: 300px;
+}
+#box2{
+    width:1190px;
+    background-color: #933993;
+    text-align:center;
+}
+#clgname{
+    color:#ffffff;
+    font-size: 50px;
+}
+#text1{
+    font-size: 22px;
+    color: #ffffff;
+}
+#scrolltext{
+    font-size: 20px;
+    font-weight: bold;
+}
+.navigation{
+    border:solid 1px;
+    border height: 55px;
+}
+ul li{
+    border: solid 1px;
+    height: 36px;
+    float: left;
+    width: 120px;
+    text-align: center;
+    line-height: 54px;
+    background-color:rgba(0, 110, 255, 0.568) ;
+    position: relative;
+    margin-bottom: 1.5px;
+    margin-right: 2px;
+}
+ul{
+    list-style: none;
+}
+ul li a{
+    color: rgba(0, 60, 255, 0.795);
+    font-size: 22px;
+    text-decoration: none;
+}
+ul ul{
+    position: absolute;
+    display: none;
+}
+ul li:hover>ul{
+    display: block;
+   }
+   ul li ul li{
+    width: 250px;
+    background-color: #ffffff;
+   }
+   ul li ul li ul li{
+    width: 650px;
+    margin-left: 257;
+   }
+   ul ul ul{
+    top:0px;
+   }
+   ul li:hover{
+    background-color: orange;
+   }
+   ul li ul li:hover{
+    background-color: #ffc0cb;
+   }
+   ul li ul li ul li:hover{
+    background-color: 5#ffff003a;
+   }
+   .arrow{
+    color: #933993;
+    font-size: 20px;
+   }
+   .obox{
+    border: solid 1px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+   }
+   #in1,#in2,#in3{
+    border: solid 1px;
+    height: 400px;
+
+   }
+   #in1{
+    width: 650px;
+    background-image: url(v7.jpg);
+    background-repeat: no-repeat;
+    background-size: 650px 400px;
+    animation-name: imageschanging;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+   }
+   @keyframes imageschanging{
+    10%{
+        background-image: url(vignan1.jpg);
+    }
+    20%{
+        background-image: url(vignan2.jpg);
+    }
+    30%{
+        background-image: url(v3.jpg);
+    }
+    40%{
+        background-image: url(v4.jpg);
+    }
+   }
+   #in2,#in3{
+    width: 270px;
+   }
+   .out{
+    border: solid 1px;
+    height: 150px;
+    background-color: gray;
+   }
+   #logo{
+    padding-right: 120px;
+   }
